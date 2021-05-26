@@ -21,6 +21,8 @@ Role Variables
   * `haproxy_checksum`: Checksum for the haproxy install package (sha256sum).
 
 
+For more specific configuration, you will want to customise the haproxy.cfg. A good introduction to customising haproxy for API use can be found [here](https://www.haproxy.com/blog/using-haproxy-as-an-api-gateway-part-1/).
+
 Example Playbook
 ----------------
 
