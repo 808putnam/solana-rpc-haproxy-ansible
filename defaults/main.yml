@@ -1,0 +1,11 @@
+---
+# defaults file for solana-rpc-haproxy
+
+haproxy_certificate_path: /etc/haproxy/certs/rpcserver.pem
+haproxy_lb_maxconn: 3000
+haproxy_rpcnode_maxconn: 1000
+haproxy_rpcnode_maxconn_pubsub: 500
+
+haproxy_major_version: 2.2
+haproxy_minor_version: 10
+haproxy_checksum: sha256:a027e9cd8f703ba48dc193f5ae34d9aa152221f67ab58a4e939c96b9f4edd3bc
