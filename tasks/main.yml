@@ -123,7 +123,7 @@
 - name: reload services
   systemd:
     daemon_reload: true
-  when: haproxy_service is changed or haproxy_health_check_service is changed
+  when: haproxy_service is changed 
 
 - name: setup services
   service:
