@@ -1,6 +1,5 @@
 galaxy_info:
   author: Linus Kendall
-  role_name: solana-rpc-haproxy-ansible
   description: HAproxy frontend for Solana RPC node
   company: Triton
   license: MIT
